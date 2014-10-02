@@ -1,9 +1,8 @@
 define(function(require, exports, module) {
-    var ScrollView = require('famous/views/ScrollView')
-    ,   FamousEngine = require('famous/core/Engine')
-    ,   GenericSync = require('famous/inputs/GenericSync')
-    ,   MouseSync = require('famou/inputs/MouseSync');
-
+    var ScrollView = require('famous/views/ScrollView');
+    var FamousEngine = require('famous/core/Engine');
+    var GenericSync = require('famous/inputs/GenericSync');
+    var MouseSync = require('famous/inputs/MouseSync');
 
     GenericSync.register({mouse: MouseSync});
 

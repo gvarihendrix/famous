@@ -1,8 +1,8 @@
 define(function(require, exports, module) {
-    var Surface     = require('famous/core/Surface'),
-        Modifier    = require('famous/core/Modifier'),
-        Transform   = require('famous/core/Transform'),
-        View        = require('famous/core/View');
+    var Surface     = require('famous/core/Surface');
+    var Modifier    = require('famous/core/Modifier');
+    var Transform   = require('famous/core/Transform');
+    var View        = require('famous/core/View');
 
     function TitleBannerView() {
         TitleBannerView.apply(this, arguments);
